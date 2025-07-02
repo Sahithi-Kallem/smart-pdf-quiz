@@ -1,0 +1,30 @@
+{
+  "name": "pdf-quiz-generator",
+  "version": "1.0.0",
+  "description": "A comprehensive PDF quiz generator with AI-powered analysis",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "cd frontend && npm install && cd ../backend && npm install",
+    "dev": "concurrently \"cd backend && npm start\" \"cd frontend && npm run dev\"",
+    "start": "cd backend && npm start",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "pdf",
+    "quiz",
+    "ai",
+    "education",
+    "learning",
+    "gemini",
+    "react",
+    "nodejs"
+  ],
+  "author": "PDF Quiz Generator Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
